@@ -107,7 +107,7 @@ const sectionsCount = sectionHashes.length;
   ];
 
   const docesTradicionaisBloco5: Product[] = [
-    { name: "Brigadeiro de Ninho com Creme de Avelã", price: "Cento • R$ 145,00", images: ["/brigadeiro de ninho (2).webp", "/brigadeiro de ninho1.webp", "/brigadeiro de ninho.webp"], description: "Brigadeiro de Ninho recheado com creme de avelã.", flavors: ["Ninho & Nutella"], tag: { text: "★ Mais Vendido", type: "best" } },
+    { name: "Brigadeiro de Ninho com Creme de Avelã", price: "Cento • R$ 145,00", images: ["/avela.webp", "/avela.webp", "/avela.webp"], description: "Brigadeiro de Ninho recheado com creme de avelã.", flavors: ["Ninho & Nutella"], tag: { text: "★ Mais Vendido", type: "best" } },
     { name: "Casquinha de Chocolate com Brigadeiro e Cereja", price: "Cento • R$ 350,00", images: ["/casquinha com cereja.webp", "/casc (1).webp", "/casc (2).webp"], description: "Chocolate crocante, brigadeiro e nobreza da cereja.", flavors: ["Cereja Inteira com Licor"] },
     { name: "Copinho de Chocolate com Frissalys", price: "Cento • R$ 350,00", images: ["/copinho com frissalys.webp", "/fric.webp", "/fic.webp"], description: "Delicioso copinho recheado com brigadeiro e finalizado com frissalys crocante.", flavors: ["Brigadeiro com Frissalys"], tag: { text: "★ Especial", type: "premium" } },
   ];
