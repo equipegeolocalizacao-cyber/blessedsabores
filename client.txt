@@ -1,0 +1,246 @@
+ O volume na unidade D n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 1CC0-CF14
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  11:31               930 index.html
+13/07/2026  23:13    <DIR>          public
+13/07/2026  10:48    <DIR>          src
+               1 arquivo(s)            930 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\public
+
+13/07/2026  23:13    <DIR>          .
+13/07/2026  23:13    <DIR>          ..
+13/07/2026  10:48                 0 .gitkeep
+13/07/2026  23:07           150.376 628054590_18391010197144810_2017467403996016023_n.jpeg
+10/07/2026  08:16           667.699 barra 2.jpeg
+10/07/2026  08:16           397.704 barra.jpeg
+10/07/2026  08:16           238.895 beijinho 3.jpeg
+10/07/2026  08:16           608.900 beijinho 5.jpeg
+10/07/2026  08:16           292.738 beijinho.jpeg
+13/07/2026  23:12           378.146 bol.jpeg
+10/07/2026  08:16           541.531 bolo 2.jpeg
+10/07/2026  08:16           465.420 bolo 4 (2).jpeg
+10/07/2026  08:16           342.075 bolo 4.jpeg
+10/07/2026  08:16           661.055 bolo 6.jpeg
+10/07/2026  08:16           499.725 bolo 7.jpeg
+10/07/2026  08:16           304.830 bolo 8.jpeg
+10/07/2026  08:16           447.480 bolo.jpeg
+13/07/2026  23:03           308.141 bomb quad.jpeg
+10/07/2026  08:16           462.269 bombom (2).jpeg
+10/07/2026  08:16           248.363 bombom 2.jpeg
+10/07/2026  08:16           149.430 bombom 4.jpeg
+10/07/2026  08:16           432.916 bombom 5 (2).jpeg
+10/07/2026  08:16           567.206 bombom 5.jpeg
+10/07/2026  08:16           394.427 bombom colorido.jpeg
+10/07/2026  08:16           421.248 bombom quadrado.jpeg
+10/07/2026  08:16           285.493 bombom.jpeg
+13/07/2026  22:40           433.688 bri1.jpeg
+13/07/2026  22:40           317.427 bri3.jpeg
+13/07/2026  22:39           177.247 brig.jpeg
+13/07/2026  22:38           461.256 brig2.jpeg
+10/07/2026  08:16           300.768 brigadeiro de ninho (2).jpeg
+10/07/2026  08:16           247.229 brigadeiro de ninho.jpeg
+10/07/2026  08:16           203.046 brigadeiro de ninho1.jpeg
+10/07/2026  08:16           206.411 brigadeiro.jpeg
+10/07/2026  08:16           150.942 caixa noiva.jpeg
+10/07/2026  08:16           575.504 cajuzinho 2.jpeg
+10/07/2026  08:16           267.424 cajuzinho 6.jpeg
+10/07/2026  08:16           240.042 cajuzinho.jpeg
+10/07/2026  08:16           207.018 camafeu 2.jpeg
+10/07/2026  08:16           363.101 camafeu 3 (2).jpeg
+10/07/2026  08:16           114.238 camafeu 3.jpeg
+10/07/2026  08:16           226.856 camafeu 7.jpeg
+10/07/2026  08:16           288.232 camafeu.jpeg
+10/07/2026  08:16           192.959 casadinho 3.jpeg
+10/07/2026  08:16           207.430 casadinho 4.jpeg
+10/07/2026  08:16           592.912 casadinho 5.jpeg
+10/07/2026  08:16           402.546 casadinho 8.jpeg
+10/07/2026  08:16           133.179 casadinho 9.jpeg
+10/07/2026  08:16           232.680 casadinho.jpeg
+10/07/2026  08:16           188.605 casadinho2.jpeg
+13/07/2026  23:06           249.870 casc (1).jpeg
+13/07/2026  23:05           265.832 casc (2).jpeg
+10/07/2026  08:16           354.738 casquinha com cereja.jpeg
+13/07/2026  22:54           149.578 churr1.jpeg
+13/07/2026  22:55           219.126 churr3.jpeg
+10/07/2026  08:16           431.722 com com dourado.jpeg
+10/07/2026  08:16           353.173 copinho com frissalys.jpeg
+13/07/2026  22:56           128.995 curr.jpeg
+10/07/2026  08:16           266.552 doce rosa 2.jpeg
+10/07/2026  08:16           219.736 doce rosa 3.jpeg
+10/07/2026  08:16           244.273 doce rosa.jpeg
+13/07/2026  22:55           212.301 fic.jpeg
+13/07/2026  22:56           132.668 fric.jpeg
+06/03/2020  14:13            74.974 logo-blessed.png
+06/03/2020  14:13            85.744 logo-blessedw.png
+06/03/2020  14:13            58.411 logo.png
+13/07/2026  11:39    <DIR>          manus-storage
+10/07/2026  08:16           497.605 mesa .jpeg
+10/07/2026  08:16           786.443 mesa 2.jpeg
+10/07/2026  08:16           739.161 mesa 22.jpeg
+10/07/2026  08:16           295.241 mesa 3.jpeg
+10/07/2026  08:16           177.019 mesa 4.jpeg
+10/07/2026  08:16           695.957 mesa 5.jpeg
+10/07/2026  08:16           115.643 mesa.jpeg
+10/07/2026  08:16           255.713 mesa1.jpeg
+10/07/2026  08:16           277.337 mesa33.jpeg
+13/07/2026  22:51           254.256 ouri.jpeg
+10/07/2026  08:16           265.778 ouriáo 2.jpeg
+10/07/2026  08:16           268.969 ouriáo.jpeg
+10/07/2026  08:16           208.286 panetone.jpeg
+10/07/2026  08:16           300.935 pao de mel (2).jpeg
+10/07/2026  08:16           176.617 pao de mel 3.jpeg
+10/07/2026  08:16           170.302 pao de mel 4.jpeg
+10/07/2026  08:16           184.709 pao de mel 5.jpeg
+10/07/2026  08:16           270.300 pao de mel 6.jpeg
+10/07/2026  08:16           261.346 pao de mel.jpeg
+13/07/2026  22:44           295.259 rosa (1).jpeg
+13/07/2026  22:45           207.674 rosa (2).jpeg
+13/07/2026  22:45           182.528 rosa (3).jpeg
+10/07/2026  08:16           427.777 WhatsApp Image 2026-07-10 at 07.45.22.jpeg
+13/07/2026  10:48    <DIR>          __manus__
+              87 arquivo(s)     26.759.355 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\public\manus-storage
+
+13/07/2026  11:39    <DIR>          .
+13/07/2026  11:39    <DIR>          ..
+13/07/2026  11:39                 0 beijinhos_8413e0bb.png
+13/07/2026  11:39                 0 bolos-especiais_c0352dbc.png
+13/07/2026  11:39                 0 bombons-especiais_47905661.png
+13/07/2026  11:39                 0 brigadeiros-gourmet_36cca0ef.png
+13/07/2026  11:39                 0 casadinhos_955a6c65.png
+13/07/2026  11:39                 0 hero-doces_10aa207c.png
+13/07/2026  11:39                 0 logo-blessed_42182d02.png
+               7 arquivo(s)              0 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\public\__manus__
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48            25.168 debug-collector.js
+13/07/2026  10:48                57 version.json
+               2 arquivo(s)         25.225 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48               844 App.tsx
+13/07/2026  10:48    <DIR>          components
+13/07/2026  10:48               643 const.ts
+13/07/2026  10:48    <DIR>          contexts
+13/07/2026  10:48    <DIR>          hooks
+13/07/2026  11:35             5.955 index.css
+13/07/2026  10:48    <DIR>          lib
+13/07/2026  10:48               157 main.tsx
+13/07/2026  10:48    <DIR>          pages
+               4 arquivo(s)          7.599 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\components
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48             1.688 ErrorBoundary.tsx
+13/07/2026  10:48             2.370 ManusDialog.tsx
+13/07/2026  10:48             4.932 Map.tsx
+13/07/2026  10:48    <DIR>          ui
+               3 arquivo(s)          8.990 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\components\ui
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48             2.048 accordion.tsx
+13/07/2026  10:48             3.866 alert-dialog.tsx
+13/07/2026  10:48             1.622 alert.tsx
+13/07/2026  10:48               269 aspect-ratio.tsx
+13/07/2026  10:48             1.090 avatar.tsx
+13/07/2026  10:48             1.639 badge.tsx
+13/07/2026  10:48             2.371 breadcrumb.tsx
+13/07/2026  10:48             2.220 button-group.tsx
+13/07/2026  10:48             2.097 button.tsx
+13/07/2026  10:48             7.663 calendar.tsx
+13/07/2026  10:48             1.997 card.tsx
+13/07/2026  10:48             5.603 carousel.tsx
+13/07/2026  10:48            10.113 chart.tsx
+13/07/2026  10:48             1.218 checkbox.tsx
+13/07/2026  10:48               791 collapsible.tsx
+13/07/2026  10:48             4.838 command.tsx
+13/07/2026  10:48             8.284 context-menu.tsx
+13/07/2026  10:48             6.024 dialog.tsx
+13/07/2026  10:48             4.255 drawer.tsx
+13/07/2026  10:48             8.434 dropdown-menu.tsx
+13/07/2026  10:48             2.406 empty.tsx
+13/07/2026  10:48             6.057 field.tsx
+13/07/2026  10:48             3.801 form.tsx
+13/07/2026  10:48             1.525 hover-card.tsx
+13/07/2026  10:48             5.066 input-group.tsx
+13/07/2026  10:48             2.253 input-otp.tsx
+13/07/2026  10:48             2.728 input.tsx
+13/07/2026  10:48             4.513 item.tsx
+13/07/2026  10:48               866 kbd.tsx
+13/07/2026  10:48               602 label.tsx
+13/07/2026  10:48             8.405 menubar.tsx
+13/07/2026  10:48             6.680 navigation-menu.tsx
+13/07/2026  10:48             2.726 pagination.tsx
+13/07/2026  10:48             1.629 popover.tsx
+13/07/2026  10:48               731 progress.tsx
+13/07/2026  10:48             1.459 radio-group.tsx
+13/07/2026  10:48             2.023 resizable.tsx
+13/07/2026  10:48             1.637 scroll-area.tsx
+13/07/2026  10:48             6.297 select.tsx
+13/07/2026  10:48               690 separator.tsx
+13/07/2026  10:48             4.107 sheet.tsx
+13/07/2026  10:48            21.947 sidebar.tsx
+13/07/2026  10:48               279 skeleton.tsx
+13/07/2026  10:48             1.988 slider.tsx
+13/07/2026  10:48               561 sonner.tsx
+13/07/2026  10:48               335 spinner.tsx
+13/07/2026  10:48             1.168 switch.tsx
+13/07/2026  10:48             2.445 table.tsx
+13/07/2026  10:48             1.963 tabs.tsx
+13/07/2026  10:48             2.613 textarea.tsx
+13/07/2026  10:48             1.936 toggle-group.tsx
+13/07/2026  10:48             1.563 toggle.tsx
+13/07/2026  10:48             1.886 tooltip.tsx
+              53 arquivo(s)        181.327 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\contexts
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48             1.467 ThemeContext.tsx
+               1 arquivo(s)          1.467 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\hooks
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48             2.333 useComposition.ts
+13/07/2026  10:48               584 useMobile.tsx
+13/07/2026  10:48               471 usePersistFn.ts
+               3 arquivo(s)          3.388 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\lib
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+13/07/2026  10:48               169 utils.ts
+               1 arquivo(s)            169 bytes
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)\client\src\pages
+
+13/07/2026  10:48    <DIR>          .
+13/07/2026  10:48    <DIR>          ..
+14/07/2026  00:11            41.030 Home.tsx
+13/07/2026  10:48             1.756 NotFound.tsx
+               2 arquivo(s)         42.786 bytes
+
+     Total de Arquivos na Lista:
+             164 arquivo(s)     27.031.236 bytes
+              32 pasta(s)   199.711.133.696 bytes dispon°veis

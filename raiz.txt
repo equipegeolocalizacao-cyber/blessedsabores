@@ -1,0 +1,35 @@
+ O volume na unidade D n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç 1CC0-CF14
+
+ Pasta de D:\Download win\MARCA PASSOS\UNIVERSIDADE DIVERGENTE\Cursos de Neg¢cios Nova temporada - 3 Marcas Memor†veis\blessed-sabores-doces-menu (1)
+
+14/07/2026  10:43    <DIR>          .
+14/07/2026  10:43    <DIR>          ..
+13/07/2026  10:48             1.384 .gitignore
+13/07/2026  10:48                 0 .gitkeep
+13/07/2026  11:16    <DIR>          .manus-logs
+13/07/2026  10:48                42 .prettierignore
+13/07/2026  10:48               310 .prettierrc
+13/07/2026  10:48            14.778 ARCHITECTURE.md
+14/07/2026  09:54    <DIR>          Blessedsabores
+13/07/2026  10:48    <DIR>          client
+13/07/2026  10:48               388 components.json
+13/07/2026  10:48            12.325 CONTRIBUTING.md
+14/07/2026  10:43         5.378.800 estrutura.txt
+13/07/2026  10:54             5.421 ideas.md
+13/07/2026  18:35             6.374 MD.MD
+13/07/2026  11:15    <DIR>          node_modules
+13/07/2026  10:48             3.362 package.json
+13/07/2026  10:48    <DIR>          patches
+13/07/2026  10:48           260.363 pnpm-lock.yaml
+13/07/2026  10:48            21.310 PROJECT_DOCUMENTATION.md
+13/07/2026  10:48             4.655 QUICK_START.md
+14/07/2026  10:43                 0 raiz.txt
+13/07/2026  10:48    <DIR>          server
+13/07/2026  10:48    <DIR>          shared
+13/07/2026  10:48            14.364 template.json
+13/07/2026  10:48               657 tsconfig.json
+13/07/2026  10:48               479 tsconfig.node.json
+13/07/2026  10:48             7.501 vite.config.ts
+              19 arquivo(s)      5.732.513 bytes
+               9 pasta(s)   199.742.599.168 bytes dispon°veis
