@@ -20,14 +20,15 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState(0);
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
 
-  const containerRef = useRef<HTMLDivElement>(null);
-  const sectionsCount = 13;
+const containerRef = useRef<HTMLDivElement>(null);
 
-  const sectionHashes = [
-    "inicio", "sobre", "categorias",
-    "tradicionais-1", "tradicionais-2", "tradicionais-3", "tradicionais-4", "tradicionais-5",
-    "bombons-1", "bombons-2", "bolos", "instrucoes", "contato"
-  ];
+const sectionHashes = [
+  "inicio", "sobre", "categorias",
+  "tradicionais-1", "tradicionais-2", "tradicionais-3", "tradicionais-4", "tradicionais-5",
+  "bombons-1", "bombons-2", "bolos", "instrucoes", "contato"
+];
+
+const sectionsCount = sectionHashes.length;
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -74,7 +75,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.5, root: containerRef.current }
+      { threshold: 0.5, root: containerRef.current || undefined }
     );
 
     sectionHashes.forEach((hash) => {
@@ -439,6 +440,8 @@ function StaticProductCard({ product }: { product: Product }) {
   alt={product.name}
   loading="lazy"
   decoding="async"
+  width="400"
+  height="300"
   className="w-full h-full object-cover pointer-events-none transition-opacity duration-300"
   draggable={false}
 />
@@ -455,14 +458,16 @@ function StaticProductCard({ product }: { product: Product }) {
           onClick={(e) => { e.preventDefault(); e.stopPropagation(); setSelectedImage(idx); }}
   className={`touch-photo-btn relative w-14 h-14 sm:w-16 sm:h-16 rounded-lg overflow-hidden bg-card cursor-pointer outline-none focus:outline-none transition-all active:scale-95 block ${selectedImage === idx ? 'border-2 border-accent shadow-md' : 'border border-border/40'}`}
         >
-          <img
-            src={imgUrl}
-            alt={`${product.name} ${idx + 1}`}
-            loading="lazy"
-            decoding="async"
-            className="w-full h-full object-cover pointer-events-none"
-            draggable={false}
-          />
+<img
+  src={imgUrl}
+  alt={`${product.name} ${idx + 1}`}
+  loading="lazy"
+  decoding="async"
+  width="64"
+  height="64"
+  className="w-full h-full object-cover pointer-events-none"
+  draggable={false}
+/>
         </button>
       ))}
     </div>

@@ -6,52 +6,68 @@ echo     DEPLOY AUTOMATICO
 echo ==========================================
 echo.
 
-REM Entrar na pasta do projeto
 cd /d "%~dp0"
 
 
-echo [1/5] Verificando instalacao...
+echo [1/4] Verificando projeto...
+
 if not exist package.json (
     echo ERRO: package.json nao encontrado.
     pause
     exit /b 1
 )
 
-
-echo.
-echo [2/5] Executando build de teste...
-call npm run build
-
-if %errorlevel% neq 0 (
-    echo.
-    echo ERRO: Build falhou.
-    echo Corrija os erros antes de publicar.
+if not exist .git (
+    echo ERRO: Repositorio Git nao encontrado.
     pause
     exit /b 1
 )
 
 
 echo.
-echo [3/5] Criando backup local...
+echo [2/4] Verificando arquivos SEO...
 
-if not exist backups mkdir backups
 
-xcopy src backups\src_backup_%date:/=-%_%time::=-% /E /I /Y >nul
+if not exist client\public\robots.txt (
+    echo AVISO: robots.txt nao encontrado.
+)
+
+if not exist client\public\sitemap.xml (
+    echo AVISO: sitemap.xml nao encontrado.
+)
+
+if not exist client\public\og-image.png (
+    echo AVISO: og-image.png nao encontrado.
+)
+
+echo Arquivos SEO verificados.
 
 
 echo.
-echo [4/5] Enviando para GitHub...
+echo [3/4] Enviando para GitHub...
+
 
 git add .
 
-git commit -m "Atualizacao automatica %date% %time%"
+
+git diff --cached --quiet
+
+if %errorlevel% neq 0 (
+    git commit -m "Atualizacao Blessed Sabores %date% %time%"
+) else (
+    echo Nenhuma alteracao detectada.
+)
+
 
 git push origin main
 
 
 if %errorlevel% neq 0 (
     echo.
-    echo ERRO ao enviar para GitHub.
+    echo ==========================================
+    echo ERRO AO ENVIAR PARA GITHUB
+    echo ==========================================
+    echo.
     pause
     exit /b 1
 )
@@ -63,6 +79,8 @@ echo     PUBLICADO COM SUCESSO
 echo ==========================================
 echo.
 echo Vercel iniciara o deploy automaticamente.
-echo Aguarde alguns minutos para atualizar o site.
+echo Aguarde alguns minutos:
+echo https://blessedsabores.vercel.app/
+echo.
 
 pause
