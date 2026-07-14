@@ -203,7 +203,7 @@ export default function Home() {
                 <button onClick={() => setExpandedCategory(expandedCategory === 'tradicionais' ? null : 'tradicionais')} className="w-full p-3 bg-card hover:bg-card/80 font-bold text-foreground flex justify-between items-center transition-all">
                   <span>🍫 Doces Tradicionais</span>
                   <div className="flex items-center gap-2 shrink-0">
-                    <span className="text-accent text-xs font-normal">Ver →</span>
+                    <span className="text-accent text-xs">Ver →</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform duration-200 text-accent ${expandedCategory === 'tradicionais' ? 'rotate-180' : ''}`}>
                       <path d="m6 9 6 6 6-6"/>
                     </svg>
@@ -225,7 +225,7 @@ export default function Home() {
                 <button onClick={() => setExpandedCategory(expandedCategory === 'premium' ? null : 'premium')} className="w-full p-3 bg-card hover:bg-card/80 font-bold text-foreground flex justify-between items-center transition-all">
                   <span>👑 Doces Premium</span>
                   <div className="flex items-center gap-2 shrink-0">
-                    <span className="text-accent text-xs font-normal">Ver →</span>
+                    <span className="text-accent text-xs">Ver →</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform duration-200 text-accent ${expandedCategory === 'premium' ? 'rotate-180' : ''}`}>
                       <path d="m6 9 6 6 6-6"/>
                     </svg>
@@ -246,7 +246,7 @@ export default function Home() {
                 <button onClick={() => setExpandedCategory(expandedCategory === 'bombons' ? null : 'bombons')} className="w-full p-3 bg-card hover:bg-card/80 font-bold text-foreground flex justify-between items-center transition-all">
                   <span>🍬 Bombons</span>
                   <div className="flex items-center gap-2 shrink-0">
-                    <span className="text-accent text-xs font-normal">Ver →</span>
+                    <span className="text-accent text-xs">Ver →</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform duration-200 text-accent ${expandedCategory === 'bombons' ? 'rotate-180' : ''}`}>
                       <path d="m6 9 6 6 6-6"/>
                     </svg>
