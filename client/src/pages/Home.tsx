@@ -7,6 +7,7 @@ interface Product {
   name: string;
   price: string;
   images: string[];
+  zoomImages?: string[];
   description?: string;
   flavors?: string[];
   tag?: {
@@ -414,7 +415,7 @@ function VerticalProductPage({ title, label, products }: { title: string; label:
 function StaticProductCard({ product }: { product: Product }) {
   const [zoomImage, setZoomImage] = useState<string | null>(null);
 
-  
+  const [selectedImage, setSelectedImage] = useState(0);
 
   return (
     <div className="bg-card border border-border rounded-xl overflow-hidden flex flex-col shadow-sm w-full select-none relative shrink-0">
@@ -425,28 +426,50 @@ function StaticProductCard({ product }: { product: Product }) {
         <h3 className="font-bold text-sm text-foreground serif-title leading-tight text-center">{product.name}</h3>
       </div>
 
-      {/* FOTOS */}
-      <div className="relative px-3 pt-2 pb-1">
-        <div className="grid grid-cols-3 gap-1.5 bg-muted/20 rounded-lg overflow-hidden p-2">
-          {product.images.map((imgUrl, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={(e) => { e.preventDefault(); e.stopPropagation(); setZoomImage(imgUrl); }}
-              className="touch-photo-btn relative aspect-square w-full rounded-lg overflow-hidden border border-border/40 bg-card cursor-pointer outline-none focus:outline-none transition-transform active:scale-95 block"
-            >
-              <img
-                src={imgUrl}
-                alt=""
-                className="w-full h-full object-cover pointer-events-none"
-                draggable={false}
-              />
-              <div className="absolute right-1 bottom-1 bg-black/60 text-white rounded px-1 py-0.5 text-[8px] font-bold pointer-events-none">🔍</div>
-            </button>
-          ))}
-        </div>
-        <p className="text-[10px] text-muted-foreground/60 text-center mt-1">Toque na foto para ampliar</p>
-      </div>
+      {/* FOTOS - GALERIA PREMIUM */}
+<div className="px-3 pt-2 pb-1">
+  {/* Foto principal */}
+  <button
+    type="button"
+    onClick={(e) => { e.preventDefault(); e.stopPropagation(); setZoomImage(product.zoomImages?.[selectedImage] || product.images[selectedImage]); }}
+    className="touch-photo-btn w-full aspect-[4/3] rounded-xl overflow-hidden border border-border/40 bg-muted/20 cursor-pointer outline-none focus:outline-none transition-transform active:scale-[0.98] block mb-2"
+  >
+<img
+  src={product.images[selectedImage]}
+  alt={product.name}
+  loading="lazy"
+  decoding="async"
+  className="w-full h-full object-cover pointer-events-none transition-opacity duration-300"
+  draggable={false}
+/>
+    <div className="absolute right-2 bottom-2 bg-black/60 text-white rounded px-1.5 py-0.5 text-[9px] font-bold pointer-events-none">🔍</div>
+  </button>
+
+  {/* Miniaturas */}
+  {product.images.length > 1 && (
+    <div className="flex justify-center gap-1.5">
+      {product.images.map((imgUrl, idx) => (
+        <button
+          key={idx}
+          type="button"
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); setSelectedImage(idx); }}
+  className={`touch-photo-btn relative w-14 h-14 sm:w-16 sm:h-16 rounded-lg overflow-hidden bg-card cursor-pointer outline-none focus:outline-none transition-all active:scale-95 block ${selectedImage === idx ? 'border-2 border-accent shadow-md' : 'border border-border/40'}`}
+        >
+          <img
+            src={imgUrl}
+            alt={`${product.name} ${idx + 1}`}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover pointer-events-none"
+            draggable={false}
+          />
+        </button>
+      ))}
+    </div>
+  )}
+
+  <p className="text-[10px] text-muted-foreground/60 text-center mt-1.5">Toque na foto para ampliar</p>
+</div>
 
       {/* PREÇO CENTRALIZADO - ABAIXO DAS FOTOS */}
       <div className="px-3 pb-2 text-center">
@@ -475,7 +498,7 @@ function StaticProductCard({ product }: { product: Product }) {
             <X size={24} />
           </button>
           <div className="max-w-full max-h-[85vh] rounded-lg overflow-hidden flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
-            <img src={zoomImage} alt="Zoom" className="w-full h-auto max-h-[85vh] object-contain" />
+            <img src={zoomImage} alt={product.name} loading="eager" decoding="async" className="w-full h-auto max-h-[85vh] object-contain" />
           </div>
         </div>,
         document.body
