@@ -345,7 +345,21 @@ const sectionsCount = sectionHashes.length;
               </a>
             </div>
 
-            <p className="text-[10px] text-muted-foreground">Blessed Sabores Doces © 2026<br/>Paranavaí - PR</p>
+<div className="space-y-2 mt-4">
+  <button
+    onClick={() => {
+      const text = encodeURIComponent(
+        "🍫 *Blessed Sabores Doces*\n\nDoces artesanais para casamentos, aniversários e eventos em Paranavaí!\n\nConfira o cardápio completo:\nhttps://blessedsabores.vercel.app/"
+      );
+      window.open(`https://wa.me/?text=${text}`, '_blank');
+    }}
+    className="w-full p-3 bg-[#25D366] text-white rounded-xl font-semibold shadow-sm text-sm hover:bg-[#20BD5A] transition-colors"
+  >
+    📤 Compartilhar Cardápio no WhatsApp
+  </button>
+</div>
+
+<p className="text-[10px] text-muted-foreground mt-2">Blessed Sabores Doces © 2026<br/>Paranavaí - PR</p>
           </div>
         </section>
 
