@@ -87,42 +87,42 @@ const sectionsCount = sectionHashes.length;
   }, [activeSection]);
 
   const docesTradicionaisBloco1: Product[] = [
-    { name: "Brigadeiro", price: "Cento • R$ 140,00", images: ["/brigadeiro.jpeg", "/brig2.jpeg", "/brig.jpeg"], description: "Feito com cacau nobre e granulado de verdade.", flavors: ["Ao Leite", "Meio Amargo", "Cacau 50%"], tag: { text: "★ Clássico", type: "classic" } },
-    { name: "Beijinho", price: "Cento • R$ 140,00", images: ["/beijinho.jpeg", "/beijinho 3.jpeg", "/beijinho 5.jpeg"], description: "Delicioso doce de coco macio e úmido.", flavors: ["Coco Tradicional", "Com Cravo"], tag: { text: "★ Favorito", type: "classic" } },
+    { name: "Brigadeiro", price: "Cento • R$ 140,00", images: ["/brigadeiro.webp", "/brig2.webp", "/brig.webp"], description: "Feito com cacau nobre e granulado de verdade.", flavors: ["Ao Leite", "Meio Amargo", "Cacau 50%"], tag: { text: "★ Clássico", type: "classic" } },
+    { name: "Beijinho", price: "Cento • R$ 140,00", images: ["/beijinho.webp", "/beijinho 3.webp", "/beijinho 5.webp"], description: "Delicioso doce de coco macio e úmido.", flavors: ["Coco Tradicional", "Com Cravo"], tag: { text: "★ Favorito", type: "classic" } },
   ];
 
   const docesTradicionaisBloco2: Product[] = [
-    { name: "Cajuzinho", price: "Cento • R$ 140,00", images: ["/cajuzinho.jpeg", "/cajuzinho 2.jpeg", "/cajuzinho 6.jpeg"], description: "Sabor marcante do amendoim selecionado com textura incrível.", flavors: ["Amendoim Tradicional"] },
-    { name: "Brigadeiro de Ninho", price: "Cento • R$ 140,00", images: ["/brigadeiro de ninho.jpeg", "/brigadeiro de ninho1.jpeg", "/brigadeiro de ninho (2).jpeg"], description: "Feito puramente com leite Ninho premium.", flavors: ["Leite Ninho Tradicional"] },
+    { name: "Cajuzinho", price: "Cento • R$ 140,00", images: ["/cajuzinho.webp", "/cajuzinho 2.webp", "/cajuzinho 6.webp"], description: "Sabor marcante do amendoim selecionado com textura incrível.", flavors: ["Amendoim Tradicional"] },
+    { name: "Brigadeiro de Ninho", price: "Cento • R$ 140,00", images: ["/brigadeiro de ninho.webp", "/brigadeiro de ninho1.webp", "/brigadeiro de ninho (2).webp"], description: "Feito puramente com leite Ninho premium.", flavors: ["Leite Ninho Tradicional"] },
   ];
 
   const docesTradicionaisBloco3: Product[] = [
-    { name: "Doce Rosa", price: "Cento • R$ 140,00", images: ["/rosa (1).jpeg", "/rosa (2).jpeg", "/doce rosa 3.jpeg"], description: "Encanto e delicadeza em cor de rosa para mesas românticas.", flavors: ["Bicho de Pé (Morango)"] },
-    { name: "Ouriço", price: "Cento • R$ 140,00", images: ["/ouriço.jpeg", "/ouri.jpeg", "/ouriço 2.jpeg"], description: "Textura externa crocante com recheio cremoso.", flavors: ["Coco Queimado"] },
+    { name: "Doce Rosa", price: "Cento • R$ 140,00", images: ["/rosa (1).webp", "/rosa (2).webp", "/doce rosa 3.webp"], description: "Encanto e delicadeza em cor de rosa para mesas românticas.", flavors: ["Bicho de Pé (Morango)"] },
+    { name: "Ouriço", price: "Cento • R$ 140,00", images: ["/ouriço.webp", "/ouri.webp", "/ouriço 2.webp"], description: "Textura externa crocante com recheio cremoso.", flavors: ["Coco Queimado"] },
   ];
 
   const docesTradicionaisBloco4: Product[] = [
-    { name: "Casadinho", price: "Cento • R$ 145,00", images: ["/casadinho.jpeg", "/casadinho 8.jpeg", "/casadinho 3.jpeg"], description: "A perfeita união do brigadeiro tradicional com o branco.", flavors: ["Preto e Branco Casados"] },
-    { name: "Brigadeiro de Churros", price: "Cento • R$ 145,00", images: ["/churr3.jpeg", "/churr1.jpeg", "/curr.jpeg"], description: "Doce de leite premium polvilhado com açúcar e canela.", flavors: ["Doce de Leite com Canela"] },
+    { name: "Casadinho", price: "Cento • R$ 145,00", images: ["/casadinho.webp", "/casadinho 8.webp", "/casadinho 3.webp"], description: "A perfeita união do brigadeiro tradicional com o branco.", flavors: ["Preto e Branco Casados"] },
+    { name: "Brigadeiro de Churros", price: "Cento • R$ 145,00", images: ["/churr3.webp", "/churr1.webp", "/curr.webp"], description: "Doce de leite premium polvilhado com açúcar e canela.", flavors: ["Doce de Leite com Canela"] },
   ];
 
   const docesTradicionaisBloco5: Product[] = [
-    { name: "Brigadeiro de Ninho com Creme de Avelã", price: "Cento • R$ 145,00", images: ["/brigadeiro de ninho (2).jpeg", "/brigadeiro de ninho1.jpeg", "/brigadeiro de ninho.jpeg"], description: "Brigadeiro de Ninho recheado com creme de avelã.", flavors: ["Ninho & Nutella"], tag: { text: "★ Mais Vendido", type: "best" } },
-    { name: "Casquinha de Chocolate com Brigadeiro e Cereja", price: "Cento • R$ 350,00", images: ["/casquinha com cereja.jpeg", "/casc (1).jpeg", "/casc (2).jpeg"], description: "Chocolate crocante, brigadeiro e nobreza da cereja.", flavors: ["Cereja Inteira com Licor"] },
-    { name: "Copinho de Chocolate com Frissalys", price: "Cento • R$ 350,00", images: ["/copinho com frissalys.jpeg", "/fric.jpeg", "/fic.jpeg"], description: "Delicioso copinho recheado com brigadeiro e finalizado com frissalys crocante.", flavors: ["Brigadeiro com Frissalys"], tag: { text: "★ Especial", type: "premium" } },
+    { name: "Brigadeiro de Ninho com Creme de Avelã", price: "Cento • R$ 145,00", images: ["/brigadeiro de ninho (2).webp", "/brigadeiro de ninho1.webp", "/brigadeiro de ninho.webp"], description: "Brigadeiro de Ninho recheado com creme de avelã.", flavors: ["Ninho & Nutella"], tag: { text: "★ Mais Vendido", type: "best" } },
+    { name: "Casquinha de Chocolate com Brigadeiro e Cereja", price: "Cento • R$ 350,00", images: ["/casquinha com cereja.webp", "/casc (1).webp", "/casc (2).webp"], description: "Chocolate crocante, brigadeiro e nobreza da cereja.", flavors: ["Cereja Inteira com Licor"] },
+    { name: "Copinho de Chocolate com Frissalys", price: "Cento • R$ 350,00", images: ["/copinho com frissalys.webp", "/fric.webp", "/fic.webp"], description: "Delicioso copinho recheado com brigadeiro e finalizado com frissalys crocante.", flavors: ["Brigadeiro com Frissalys"], tag: { text: "★ Especial", type: "premium" } },
   ];
 
   const bombonsBloco1: Product[] = [
-    { name: "Bombons Dourado, Branco, Rosa", price: "Cento • R$ 245,00", images: ["/bombom colorido.jpeg", "/bombom.jpeg", "/com com dourado.jpeg"], description: "Estilo luxuoso, casca fina de chocolate nobre em formatos variados.", flavors: ["Brigadeiro", "Beijinho", "Maracujá"], tag: { text: "★ Premium", type: "premium" } },
-    { name: "Bombom Quadrado de Nozes", price: "Cento • R$ 250,00", images: ["/bombom quadrado.jpeg", "/bombom 4.jpeg", "/bomb quad.jpeg"], description: "Toque nobre e crocante do recheio de nozes selecionadas.", flavors: ["Nozes com Doce de Leite"] },
+    { name: "Bombons Dourado, Branco, Rosa", price: "Cento • R$ 245,00", images: ["/bombom colorido.webp", "/bombom.webp", "/com com dourado.webp"], description: "Estilo luxuoso, casca fina de chocolate nobre em formatos variados.", flavors: ["Brigadeiro", "Beijinho", "Maracujá"], tag: { text: "★ Premium", type: "premium" } },
+    { name: "Bombom Quadrado de Nozes", price: "Cento • R$ 250,00", images: ["/bombom quadrado.webp", "/bombom 4.webp", "/bomb quad.webp"], description: "Toque nobre e crocante do recheio de nozes selecionadas.", flavors: ["Nozes com Doce de Leite"] },
   ];
 
   const bombonsBloco2: Product[] = [
-    { name: "Camafeu", price: "Cento • R$ 250,00", images: ["/camafeu.jpeg", "/camafeu 2.jpeg", "/camafeu 7.jpeg"], description: "O clássico doce fino de nozes envolvido em fondant.", flavors: ["Fondant de Nozes Tradicional"], tag: { text: "★ Fino", type: "premium" } },
+    { name: "Camafeu", price: "Cento • R$ 250,00", images: ["/camafeu.webp", "/camafeu 2.webp", "/camafeu 7.webp"], description: "O clássico doce fino de nozes envolvido em fondant.", flavors: ["Fondant de Nozes Tradicional"], tag: { text: "★ Fino", type: "premium" } },
   ];
 
   const bolosBloco: Product[] = [
-    { name: "Bolos Decorados Sob Consulta", price: "Sob Consulta", images: ["/bolo.jpeg", "/bol.jpeg", "/bolo 4.jpeg"], description: "Massa fofinha e recheios generosos criados sob medida para seu evento.", flavors: ["Ninho com Morango", "Doce de Leite", "Chocolate Belga"] },
+    { name: "Bolos Decorados Sob Consulta", price: "Sob Consulta", images: ["/bolo.webp", "/bol.webp", "/bolo 4.webp"], description: "Massa fofinha e recheios generosos criados sob medida para seu evento.", flavors: ["Ninho com Morango", "Doce de Leite", "Chocolate Belga"] },
   ];
 
   return (
@@ -140,7 +140,7 @@ const sectionsCount = sectionHashes.length;
 
         {/* TELA 1: CAPA */}
         <section id="inicio" className="w-full min-h-screen shrink-0 snap-start flex flex-col items-center justify-center relative px-6 text-center">
-          <div className="absolute inset-0 opacity-25" style={{ backgroundImage: `url('/mesa.jpeg')`, backgroundSize: "cover", backgroundPosition: "center" }} />
+          <div className="absolute inset-0 opacity-25" style={{ backgroundImage: `url('/mesa.webp')`, backgroundSize: "cover", backgroundPosition: "center" }} />
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/85 to-background" />
 
           <div className="relative z-10 max-w-xl w-full">
@@ -168,7 +168,7 @@ const sectionsCount = sectionHashes.length;
         {/* TELA 2: INFORMAÇÕES */}
         <section id="sobre" className="w-full min-h-screen shrink-0 snap-start flex flex-col items-center justify-center px-6 text-center">
           <div className="max-w-md w-full py-2">
-            <img src="/mesa.jpeg" alt="Mesa de Doces Montada" className="w-full h-[40vh] object-cover rounded-2xl shadow-xl mb-4 border border-border" />
+            <img src="/mesa.webp" alt="Mesa de Doces Montada" className="w-full h-[40vh] object-cover rounded-2xl shadow-xl mb-4 border border-border" />
             <h2 className="serif-title text-2xl text-foreground mb-2 font-bold">Informações Importantes</h2>
             <p className="text-xs text-muted-foreground mb-4 leading-relaxed px-2">
               Explore nosso cardápio nas próximas telas. Ao final, entre em contato pelo WhatsApp para fazer seu pedido.
