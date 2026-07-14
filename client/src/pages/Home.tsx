@@ -101,17 +101,17 @@ export default function Home() {
 
   const docesTradicionaisBloco4: Product[] = [
     { name: "Casadinho", price: "Cento • R$ 145,00", images: ["/casadinho.jpeg", "/casadinho 8.jpeg", "/casadinho 3.jpeg"], description: "A perfeita união do brigadeiro tradicional com o branco.", flavors: ["Preto e Branco Casados"] },
-    { name: "Brigadeiro de Churros", price: "Cento • R$ 145,00", images: ["/churr3.jpeg", "/curr.jpeg", "/churr1.jpeg"], description: "Doce de leite premium polvilhado com açúcar e canela.", flavors: ["Doce de Leite com Canela"] },
+    { name: "Brigadeiro de Churros", price: "Cento • R$ 145,00", images: ["/churr3.jpeg", "/churr1.jpeg", "/curr.jpeg"], description: "Doce de leite premium polvilhado com açúcar e canela.", flavors: ["Doce de Leite com Canela"] },
   ];
 
   const docesTradicionaisBloco5: Product[] = [
     { name: "Brigadeiro de Ninho com Creme de Avelã", price: "Cento • R$ 145,00", images: ["/brigadeiro de ninho (2).jpeg", "/brigadeiro de ninho1.jpeg", "/brigadeiro de ninho.jpeg"], description: "Brigadeiro de Ninho recheado com creme de avelã.", flavors: ["Ninho & Nutella"], tag: { text: "★ Mais Vendido", type: "best" } },
     { name: "Casquinha de Chocolate com Brigadeiro e Cereja", price: "Cento • R$ 350,00", images: ["/casquinha com cereja.jpeg", "/casc (1).jpeg", "/casc (2).jpeg"], description: "Chocolate crocante, brigadeiro e nobreza da cereja.", flavors: ["Cereja Inteira com Licor"] },
-    { name: "Copinho de Chocolate com Frissalys", price: "Cento • R$ 350,00", images: ["/copinho com frissalys.jpeg", "/fic.jpeg", "/fric.jpeg"], description: "Delicioso copinho recheado com brigadeiro e finalizado com frissalys crocante.", flavors: ["Brigadeiro com Frissalys"], tag: { text: "★ Especial", type: "premium" } },
+    { name: "Copinho de Chocolate com Frissalys", price: "Cento • R$ 350,00", images: ["/copinho com frissalys.jpeg", "/fric.jpeg", "/fic.jpeg"], description: "Delicioso copinho recheado com brigadeiro e finalizado com frissalys crocante.", flavors: ["Brigadeiro com Frissalys"], tag: { text: "★ Especial", type: "premium" } },
   ];
 
   const bombonsBloco1: Product[] = [
-    { name: "Bombons Dourado, Branco, Rosa e Quadrado", price: "Cento • R$ 245,00", images: ["/bombom colorido.jpeg", "/bombom.jpeg", "/com com dourado.jpeg"], description: "Estilo luxuoso, casca fina de chocolate nobre em formatos variados.", flavors: ["Brigadeiro", "Beijinho", "Maracujá"], tag: { text: "★ Premium", type: "premium" } },
+    { name: "Bombons Dourado, Branco, Rosa", price: "Cento • R$ 245,00", images: ["/bombom colorido.jpeg", "/bombom.jpeg", "/com com dourado.jpeg"], description: "Estilo luxuoso, casca fina de chocolate nobre em formatos variados.", flavors: ["Brigadeiro", "Beijinho", "Maracujá"], tag: { text: "★ Premium", type: "premium" } },
     { name: "Bombom Quadrado de Nozes", price: "Cento • R$ 250,00", images: ["/bombom quadrado.jpeg", "/bombom 4.jpeg", "/bomb quad.jpeg"], description: "Toque nobre e crocante do recheio de nozes selecionadas.", flavors: ["Nozes com Doce de Leite"] },
   ];
 
@@ -254,7 +254,7 @@ export default function Home() {
                 </button>
                 {expandedCategory === 'bombons' && (
                   <div className="bg-card/50 p-2 space-y-1 border-t border-border max-h-[60vh] overflow-y-auto">
-                    <button onClick={() => navigateToSection(8)} className="w-full text-left p-2 text-sm text-foreground hover:bg-accent/10 rounded transition-colors flex justify-between items-center"><span>• Bombons Dourado, Branco, Rosa e Quadrado</span><span className="text-accent/60 text-xs">Ir →</span></button>
+                    <button onClick={() => navigateToSection(8)} className="w-full text-left p-2 text-sm text-foreground hover:bg-accent/10 rounded transition-colors flex justify-between items-center"><span>• Bombons Dourado, Branco, Rosa</span><span className="text-accent/60 text-xs">Ir →</span></button>
                     <button onClick={() => navigateToSection(8)} className="w-full text-left p-2 text-sm text-foreground hover:bg-accent/10 rounded transition-colors flex justify-between items-center"><span>• Bombom Quadrado de Nozes</span><span className="text-accent/60 text-xs">Ir →</span></button>
                     <button onClick={() => navigateToSection(9)} className="w-full text-left p-2 text-sm text-foreground hover:bg-accent/10 rounded transition-colors flex justify-between items-center"><span>• Camafeu</span><span className="text-accent/60 text-xs">Ir →</span></button>
                   </div>
@@ -456,14 +456,14 @@ function StaticProductCard({ product }: { product: Product }) {
       {/* SABORES */}
       <div className="px-3 pb-3">
         {product.flavors && product.flavors.length > 0 && (
-          <div className="p-1.5 bg-muted/30 border border-border/40 rounded-lg flex flex-wrap gap-1 items-center">
-            <span className="text-[9px] font-bold text-muted-foreground/80 uppercase tracking-widest mr-1 shrink-0">Sabores:</span>
-            {product.flavors.map((flv, idx) => (
-              <span key={idx} className="text-[10px] bg-card px-2 py-0.5 rounded border border-border/80 text-foreground/90 font-medium shadow-sm">
-                {flv}
-              </span>
-            ))}
-          </div>
+<div className="flex flex-wrap gap-x-1 gap-y-0.5 items-center">
+  <span className="text-[10px] font-semibold text-muted-foreground uppercase tracking-widest mr-1 shrink-0">Sabores:</span>
+  {product.flavors.map((flv, idx) => (
+    <span key={idx} className="text-[10px] text-foreground/80">
+      {flv}{idx < product.flavors.length - 1 ? " • " : ""}
+    </span>
+  ))}
+</div>
         )}
       </div>
 
