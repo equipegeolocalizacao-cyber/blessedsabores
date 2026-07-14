@@ -146,7 +146,7 @@ const sectionsCount = sectionHashes.length;
           <div className="relative z-10 max-w-xl w-full">
             <div className="mb-6 flex justify-center">
               <div className="w-36 h-36 md:w-48 md:h-48 rounded-full bg-white shadow-2xl border-2 border-accent/30 flex items-center justify-center p-1 overflow-hidden">
-                <img src="/logo-blessed.png" alt="Blessed Sabores Doces" className="w-full h-full object-contain scale-105" />
+                <img src="/logo-blessed.webp" alt="Blessed Sabores Doces" className="w-full h-full object-contain scale-105" />
               </div>
             </div>
             <h1 className="serif-title text-4xl md:text-5xl text-foreground mb-2 font-bold tracking-tight">Blessed Sabores Doces</h1>
@@ -331,7 +331,7 @@ const sectionsCount = sectionHashes.length;
           <div className="max-w-sm w-full">
             <div className="mb-4 flex justify-center">
               <div className="w-24 h-24 rounded-full bg-white shadow-lg border border-border p-1 overflow-hidden">
-                <img src="/logo-blessed.png" alt="Blessed Logo" className="w-full h-full object-contain scale-105" />
+                <img src="/logo-blessed.webp" alt="Blessed Logo" className="w-full h-full object-contain scale-105" />
               </div>
             </div>
             <h2 className="serif-title text-2xl font-bold text-foreground mb-6">Orçamentos & Pedidos</h2>

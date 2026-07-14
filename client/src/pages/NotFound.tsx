@@ -15,7 +15,7 @@ export default function NotFound() {
           {/* Logo */}
           <div className="mb-6 flex justify-center">
             <div className="w-24 h-24 rounded-full bg-white shadow-xl border border-accent/30 flex items-center justify-center p-1 overflow-hidden">
-              <img src="/logo-blessed.png" alt="Blessed Sabores Doces" className="w-full h-full object-contain scale-105" />
+              <img src="/logo-blessed.webp" alt="Blessed Sabores Doces" className="w-full h-full object-contain scale-105" />
             </div>
           </div>
 
